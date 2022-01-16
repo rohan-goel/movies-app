@@ -68,3 +68,11 @@
   width: 100vw;
   margin: 0 50%;
 }
+
+.fav-genre{
+  padding: 3rem;
+}
+
+.fav-table{
+  padding: 2rem;
+}

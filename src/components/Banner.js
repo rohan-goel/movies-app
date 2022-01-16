@@ -7,7 +7,7 @@ export default class Banner extends Component {
     return (
     <>
       {
-        movie == '' ?
+        movie === '' ?
         <div class="spinner-border" role="status">
         <span class="visually-hidden">Loading...</span>
         </div>
