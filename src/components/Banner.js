@@ -3,7 +3,6 @@ import {movies} from './getMovies.js'
 export default class Banner extends Component {
   render() {
     let movie = movies.results[0];
-    console.log(movie);
     return (
     <>
       {
@@ -17,7 +16,6 @@ export default class Banner extends Component {
           <div class="card-body banner-body">
             <h3 class="card-title">{movie.original_title}</h3>
             <p class="card-text">{movie.overview}</p>
-            {/* <a href="#" class="btn btn-primary">Add to Favourites</a> */}
           </div>
         </div>
       }  
