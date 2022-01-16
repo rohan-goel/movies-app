@@ -8,9 +8,6 @@
   bottom:0rem;
   margin: 2rem;
   height: 30%;
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
-  /* white-space: nowrap; */
 }
 
 .movie-card{
@@ -75,4 +72,5 @@
 
 .fav-table{
   padding: 2rem;
+  overflow: auto;
 }
